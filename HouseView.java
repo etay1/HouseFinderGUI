@@ -73,7 +73,7 @@ public class HouseView extends View
 
         getChildren().add(container);
 
-        populateFields();
+        //populateFields();
     }
 
 
@@ -84,11 +84,11 @@ public class HouseView extends View
         HBox container = new HBox();
         container.setAlignment(Pos.CENTER);
 
-        Text titleText = new Text(" Invoice Calculator ");
+        Text titleText = new Text("Real Estate Listing:  ");
         titleText.setFont(Font.font("Arial", FontWeight.BOLD, 20));
         titleText.setWrappingWidth(300);
         titleText.setTextAlignment(TextAlignment.CENTER);
-        titleText.setFill(Color.PURPLE);
+        titleText.setFill(Color.BLUEVIOLET);
         container.getChildren().add(titleText);
 
         return container;
@@ -235,8 +235,7 @@ public class HouseView extends View
         return statusLog;
     }
 
-    //-------------------------------------------------------------
-    public void populateFields()
+/*    public void populateFields()
     {
 
         salesTaxValue.getItems().add("3.00");
@@ -271,7 +270,7 @@ public class HouseView extends View
 
         //amount.setText("");
     }
-
+*/
     // process events generated from our GUI components
     //-------------------------------------------------------------
 
